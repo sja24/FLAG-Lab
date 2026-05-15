@@ -303,7 +303,7 @@
   <!-- ================= NAVBAR ================= -->
 
   <nav class="navbar" aria-label="Main navigation">
-    <div class="logo">GreenSeed Research Lab</div>
+    <div class="logo">Fields Lab of Research and Genetics </div>
 
     <div class="nav-links">
       <a href="#dashboard">Dashboard</a>
@@ -316,7 +316,7 @@
   <!-- ================= HERO ================= -->
 
   <section class="hero">
-    <h1>Fields Lab and Genetics</h1>
+    <h1>Fields Lab of Research and Genetics</h1>
     <p>
       Advancing sustainable agriculture through innovative plant genetics,
       crop resilience research, and collaborative breeding programs.
