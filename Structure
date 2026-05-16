@@ -1,5 +1,8 @@
 fields-lab-website/
 │
+├── images/
+│   └── Fields.png
+│
 ├── index.html
 ├── about.html
 ├── projects.html
