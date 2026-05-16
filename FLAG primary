@@ -13,11 +13,11 @@ plant-lab-website/
 ├── script.js
 │
 ├── images/
-│   ├── logo.png
-│   ├── greenhouse.jpg
-│   ├── corn-research.jpg
-│   ├── scientists.jpg
-│   └── field-study.jpg
+│   ├── Fields.png
+│   ├── Greenhouse.jpg
+│   ├── ACRE.jpg
+│   ├── Labs.jpg
+│   └── Soybean.jpg
 │
 
 -->
@@ -242,7 +242,7 @@ function processForm(event) {
 
   const name = document.getElementById("name").value;
 
-  alert("Thank you for contacting the lab, " + name + "!");
+  alert("Thank you for contacting the Fields lab, " + name + "!");
 
   document.getElementById("contactForm").reset();
 }
@@ -266,14 +266,14 @@ HOME PAGE
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="description"
-    content="Plant breeding research laboratory studying sustainable agriculture, crop genetics, and climate resilient crops.">
+    content="Plant genetics research laboratory studying sustainable agriculture, crop genetics, and climate resilient crops.">
 
   <meta name="keywords"
     content="plant breeding, agriculture, crop genetics, sustainable farming">
 
   <meta name="author" content="Your Lab Name">
 
-  <title>GreenSeed Plant Breeding Lab</title>
+  <title>Fields Research and Plant Genetics Lab</title>
 
   <link rel="stylesheet" href="style.css">
 
@@ -293,11 +293,11 @@ HOME PAGE
       CHANGE LOGO IMAGE HERE
       ========================================== -->
 
-      <img src="images/logo.png"
-           alt="GreenSeed Lab Logo"
+      <img src="images/Fields.png"
+           alt="Fields Lab Logo"
            class="logo">
 
-      <h1>GreenSeed Research Lab</h1>
+      <h1>Fields Research and Plant Genetics Lab</h1>
     </div>
 
     <!-- =========================
@@ -307,6 +307,8 @@ HOME PAGE
 
     <nav>
       <ul>
+        <li><a href="team.html">Team</a></li>
+
         <li><a href="index.html">Home</a></li>
 
         <li><a href="about.html">About</a></li>
@@ -331,7 +333,7 @@ HOME PAGE
 
     <p>
       Researching innovative crop genetics and plant breeding
-      solutions for future food security.
+      solutions for more sustainable agriculture.
     </p>
 
   </section>
@@ -356,7 +358,7 @@ HOME PAGE
       CHANGE HERO IMAGE HERE
       ========================================== -->
 
-      <img src="images/greenhouse.jpg"
+      <img src="images/Greenhouse.jpg"
            alt="Research greenhouse"
            class="feature-image">
 
@@ -374,7 +376,7 @@ HOME PAGE
         <li>Drought-resistant crops</li>
         <li>Genomic selection</li>
         <li>Disease resistance research</li>
-        <li>Climate adaptation studies</li>
+        <li>Chemical composition studies</li>
       </ul>
 
     </section>
@@ -416,7 +418,7 @@ HOME PAGE
   </main>
 
   <footer>
-    <p>© 2026 GreenSeed Plant Breeding Lab</p>
+    <p>© 2026 Fields Research and Plant Genetics Lab</p>
   </footer>
 
 </body>
@@ -434,9 +436,9 @@ HOME PAGE
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="description"
-        content="Learn about the history and mission of the GreenSeed Plant Breeding Lab.">
+        content="Learn about the history and mission of the Fields Research and Plant Genetics Lab.">
 
-  <title>About Us | GreenSeed Lab</title>
+  <title>About Us | Fields Lab</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -447,7 +449,7 @@ HOME PAGE
 
   <div class="logo-container">
 
-    <img src="images/logo.png"
+    <img src="images/Fields.png"
          alt="GreenSeed Lab Logo"
          class="logo">
 
@@ -477,9 +479,10 @@ HOME PAGE
     <h2>Our Mission</h2>
 
     <p>
-      We aim to improve crop sustainability and support
-      global food security through advanced breeding
-      research and collaboration.
+      The Fields Lab of Research and Genetics is dedicated to
+      improving global food security and advancing student 
+      understanding through innovative crop genetics,
+      sustainable agricultural practices, and collaborative research.
     </p>
 
   </section>
@@ -489,16 +492,18 @@ HOME PAGE
     <h2>Lab History</h2>
 
     <p>
-      Founded in 2004, our lab has worked with universities,
-      researchers, and farmers to improve crop genetics.
+      Founded in 2022, the lab began as a regional crop genetics
+      initiative and has since expanded into an interdisciplinary
+      research center collaborating with universities and agricultural
+      organizations nationally.
     </p>
 
     <!-- ==========================================
     CHANGE ABOUT PAGE IMAGE HERE
     ========================================== -->
 
-    <img src="images/scientists.jpg"
-         alt="Scientists working in laboratory"
+    <img src="images/Labs.jpg"
+         alt="Student working in the laboratory"
          class="feature-image">
 
   </section>
@@ -506,7 +511,7 @@ HOME PAGE
 </main>
 
 <footer>
-  <p>© 2026 GreenSeed Plant Breeding Lab</p>
+  <p>© 2026 Fields Research and Plant Genetics Lab</p>
 </footer>
 
 </body>
@@ -523,7 +528,7 @@ HOME PAGE
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Projects | GreenSeed Lab</title>
+  <title>Projects | Fields Lab</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -534,11 +539,11 @@ HOME PAGE
 
   <div class="logo-container">
 
-    <img src="images/logo.png"
-         alt="GreenSeed Lab Logo"
+    <img src="images/Fields.png"
+         alt="Fields Lab Logo"
          class="logo">
 
-    <h1>GreenSeed Research Lab</h1>
+    <h1>Fields Research and Plant Genetics Lab</h1>
   </div>
 
   <nav>
@@ -576,20 +581,20 @@ HOME PAGE
       </tr>
 
       <tr>
-        <td>Drought Resistant Corn</td>
-        <td>Climate Resilience</td>
+        <td>Tannin Effect Research</td>
+        <td>Reduction for Animal Consumption</td>
         <td>Active</td>
       </tr>
 
       <tr>
-        <td>High Yield Soybeans</td>
+        <td>High Yield Soybeans Lines</td>
         <td>Yield Optimization</td>
         <td>Field Trials</td>
       </tr>
 
       <tr>
-        <td>Rice Disease Resistance</td>
-        <td>Genetic Mapping</td>
+        <td>RNA Sequencing of Cowpeas</td>
+        <td>Extractions</td>
         <td>Analysis</td>
       </tr>
 
@@ -603,8 +608,8 @@ HOME PAGE
     CHANGE PROJECT IMAGE HERE
     ========================================== -->
 
-    <img src="images/corn-research.jpg"
-         alt="Corn breeding research field"
+    <img src="images/Soybean.jpg"
+         alt="Soybean breeding research harvest"
          class="feature-image">
 
   </section>
@@ -612,7 +617,7 @@ HOME PAGE
 </main>
 
 <footer>
-  <p>© 2026 GreenSeed Plant Breeding Lab</p>
+  <p>© 2026 Fields Research and Plant Genetics Lab</p>
 </footer>
 
 </body>
@@ -629,7 +634,7 @@ HOME PAGE
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Dashboard | GreenSeed Lab</title>
+  <title>Dashboard | Fields Lab</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -640,11 +645,11 @@ HOME PAGE
 
   <div class="logo-container">
 
-    <img src="images/logo.png"
-         alt="GreenSeed Lab Logo"
+    <img src="images/Fields.png"
+         alt="Fields Lab Logo"
          class="logo">
 
-    <h1>GreenSeed Research Lab</h1>
+    <h1>Fields Research and Plant Genetics Lab</h1>
   </div>
 
   <nav>
@@ -669,8 +674,8 @@ HOME PAGE
 
     <h2>Research Dashboard</h2>
 
-    <p>Active Projects: 12</p>
-    <p>Field Sites: 17</p>
+    <p>Active Projects: 6</p>
+    <p>Field Sites: 3</p>
     <p>Research Partners: 9</p>
 
   </section>
@@ -681,7 +686,7 @@ HOME PAGE
     CHANGE DASHBOARD IMAGE HERE
     ========================================== -->
 
-    <img src="images/field-study.jpg"
+    <img src="images/ACRE.png"
          alt="Field crop study"
          class="feature-image">
 
@@ -690,7 +695,7 @@ HOME PAGE
 </main>
 
 <footer>
-  <p>© 2026 Fields Lab and Plant Research</p>
+  <p>© 2026 Fields Research and Plant Genetics Lab</p>
 </footer>
 
 </body>
@@ -710,7 +715,7 @@ HOME PAGE
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
 
-  <title>Contact | Fields Lab Lab</title>
+  <title>Contact | Fields Lab</title>
 
   <link rel="stylesheet" href="style.css">
 
@@ -722,11 +727,11 @@ HOME PAGE
 
   <div class="logo-container">
 
-    <img src="images/logo.png"
+    <img src="images/Fields.png"
          alt="Fields Lab Logo"
          class="logo">
 
-    <h1>Fields Lab and Plant Research </h1>
+    <h1>Fields Research and Plant Genetics Lab </h1>
 
   </div>
 
@@ -761,7 +766,7 @@ HOME PAGE
 
       <input type="text"
              id="name"
-             placeholder="Your Name"
+             placeholder="Enter Full Name"
              required>
 
       <input type="email"
@@ -783,7 +788,7 @@ HOME PAGE
 </main>
 
 <footer>
-  <p>© 2026 Fields Lab Of Plant Breeding Lab</p>
+  <p>© 2026 Fields Research and Plant Genetics Lab</p>
 </footer>
 
 <script src="script.js"></script>
