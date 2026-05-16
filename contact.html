@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact | Fields Lab</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">Fields Lab of Research and Genetics</div>
+
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section class="card">
+    <h2 class="section-title">Contact Our Lab</h2>
+
+    <form id="contactForm" onsubmit="processForm(event)">
+
+      <input type="text"
+             id="name"
+             placeholder="Your Name"
+             required>
+
+      <input type="email"
+             placeholder="Your Email"
+             required>
+
+      <textarea rows="5"
+                placeholder="Your Message"
+                required></textarea>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Fields Lab of Research and Genetics</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
